@@ -62,12 +62,88 @@ This regenerates the R3F, Phaser, and Three.js skill mirrors, then validates the
 workspace. It does not regenerate agents or repo-local Web Browser family
 routing.
 
-## Template Usage
+## How To Use This Template
 
-1. Clone this repository for a new game project.
-2. Open the cloned project folder in Codex.
-3. Keep project-specific skill and agent edits inside the cloned repo.
-4. Use global skill installation only when you explicitly want machine-wide reuse.
+Use this repository as a per-project Codex workspace template. Do not copy these
+skills or agents into your global `~/.codex` folder for normal project use.
+Codex should be opened from the game project root so it can read the repo-local
+`.codex/` directory.
+
+### New Game Project
+
+Clone this template as the starting folder for a new game:
+
+```powershell
+cd E:\YourGameProjects
+git clone https://github.com/onemanking/codex-game-studio.git my-new-game
+cd my-new-game
+```
+
+If this clone will become your own game repository, point `origin` at your own
+GitHub repo before pushing project work:
+
+```powershell
+git remote set-url origin https://github.com/<your-user>/<your-game-repo>.git
+```
+
+Then open `my-new-game` in Codex. The active Codex surfaces are:
+
+```text
+AGENTS.md
+.codex/config.toml
+.codex/hooks.json
+.codex/agents/
+.codex/skills/
+```
+
+Validate the workspace after cloning:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\validate-skills.ps1
+```
+
+Start the studio flow in Codex with:
+
+```text
+/start
+```
+
+For browser-game projects, route through the Web Browser engine family:
+
+```text
+/web-browser-game
+/web-game-foundations
+```
+
+### Existing Game Project
+
+If you already have a game repository, copy the Codex workspace surface into
+that project:
+
+```powershell
+Copy-Item -Recurse E:\CodexUtility\codex-game-studio\.codex E:\YourExistingGame\.codex
+Copy-Item -Recurse E:\CodexUtility\codex-game-studio\scripts E:\YourExistingGame\scripts
+Copy-Item E:\CodexUtility\codex-game-studio\AGENTS.md E:\YourExistingGame\AGENTS.md
+```
+
+If the existing project already has `AGENTS.md`, merge the instructions instead
+of overwriting the file. Keep any project-specific rules that already describe
+the real game codebase. If the existing project already has a `scripts/`
+directory, copy or merge at least `scripts/validate-skills.ps1` because the
+repo-local hooks use it for Codex skill and agent validation.
+
+After copying, open `E:\YourExistingGame` in Codex and run:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\validate-skills.ps1
+```
+
+### What Codex Actually Uses
+
+Codex uses the repo-local `.codex/skills`, `.codex/agents`, hooks, and
+`AGENTS.md` from the project folder you open. The `vendor/upstream-skills`
+directory is not the active runtime surface; it is kept as a source snapshot for
+traceability and future regeneration of mirrored browser-game skills.
 
 No legacy assistant-specific workspace directory or instruction file is required
 for this template.
