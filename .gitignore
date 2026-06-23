@@ -11,6 +11,8 @@ Desktop.ini
 
 # === Codex Local ===
 .codex/settings.local.json
+.codex/config.local.toml
+.codex/hooks.local.json
 AGENTS.local.md
 production/session-logs/
 

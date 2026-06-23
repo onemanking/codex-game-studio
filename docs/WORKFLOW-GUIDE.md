@@ -3,7 +3,7 @@
 > **How to go from zero to a shipped game using the Agent Architecture.**
 >
 > This guide walks you through every phase of game development using the
-> 54-agent system, 140 workspace-local skills, and 12 automated hooks. It assumes you
+> 54-agent system, 140 workspace-local skills, and 12 repo-local hook scripts. It assumes you
 > have Codex installed and are working from the project root.
 >
 > The pipeline has 7 phases. Each phase has a formal gate (`/gate-check`)
@@ -70,14 +70,14 @@ Start a new Codex session. You should see output from the
 `session-start.sh` hook:
 
 ```
-=== Codex Game Studio -- Session Context ===
+=== Codex Game Studio: Session Context ===
 Branch: main
 Recent commits:
   abc1234 Initial commit
-===================================
+==========================================
 ```
 
-If you see this, hooks are working. If not, check `.codex/settings.json` to
+If you see this, hooks are working. If not, check `.codex/hooks.json` to
 make sure the hook paths are correct for your OS.
 
 ### Step 4: Ask for Help Anytime
@@ -1244,22 +1244,25 @@ Tier 3 (Specialists):  gameplay-programmer, engine-programmer,
 
 ### Automated Hooks (Safety Net)
 
-The system has 12 hooks that run automatically:
+The repo includes 12 hook scripts. The default `.codex/hooks.json` wires the
+Codex events that are safe across this template. The remaining helper scripts
+are kept for runtimes or local installs that expose compaction, notification, or
+subagent hook events.
 
-| Hook | Trigger | What It Does |
-|------|---------|-------------|
-| `session-start.sh` | Session start | Shows branch, recent commits, detects active.md for recovery |
-| `detect-gaps.sh` | Session start | Detects fresh projects (no engine, no concept) and suggests `/start` |
-| `pre-compact.sh` | Before compaction | Dumps session state into conversation for auto-recovery |
-| `post-compact.sh` | After compaction | Reminds Codex to restore session state from `active.md` |
-| `notify.sh` | Notification event | Shows Windows toast notification via PowerShell |
-| `validate-commit.sh` | Before commit | Checks for design doc references, valid JSON, no hardcoded values |
-| `validate-push.sh` | Before push | Warns on pushes to main/develop |
-| `validate-assets.sh` | Before commit | Checks asset naming and size |
-| `validate-skill-change.sh` | Skill file written | Advises running `/skill-test` after `.codex/skills/` changes |
-| `log-agent.sh` | Agent start | Logs agent invocations for audit trail |
-| `log-agent-stop.sh` | Agent stop | Completes agent audit trail (start + stop) |
-| `session-stop.sh` | Session end | Final session logging |
+| Hook | Default wiring | What It Does |
+|------|----------------|-------------|
+| `session-start.sh` | SessionStart | Shows branch, recent commits, Codex skill/agent counts, and `active.md` preview |
+| `detect-gaps.sh` | SessionStart | Detects missing template surfaces and early project setup gaps |
+| `validate-commit.sh` | PreToolUse | Blocks `git commit` when staged files include likely secrets, invalid JSON, diff issues, or broken Codex skill validation |
+| `validate-push.sh` | PreToolUse | Warns before `git push`, especially from `main`/`master` or with sensitive-looking local files |
+| `validate-assets.sh` | Stop | Warns about invalid asset JSON and large assets |
+| `validate-skill-change.sh` | Stop | Runs Codex skill validation when studio skills, agents, hooks, or validation scripts changed |
+| `session-stop.sh` | Stop | Writes a gitignored session summary under `production/session-logs/` |
+| `pre-compact.sh` | Optional helper | Prints branch, changed files, and `active.md` before compaction when wired locally |
+| `post-compact.sh` | Optional helper | Reminds Codex to restore state from files after compaction when wired locally |
+| `notify.sh` | Optional helper | Prints notification text for runtimes that expose notification hooks |
+| `log-agent.sh` | Optional helper | Appends subagent start payloads to the gitignored audit log when wired locally |
+| `log-agent-stop.sh` | Optional helper | Appends subagent stop payloads to the gitignored audit log when wired locally |
 
 ### Context Resilience
 
@@ -1273,8 +1276,8 @@ survive crashes and context compactions. Previous discussion about written
 sections can be safely compacted.
 
 **Automatic recovery:** The `session-start.sh` hook detects and previews
-`active.md` automatically. The `pre-compact.sh` hook dumps state into the
-conversation before compaction.
+`active.md` automatically. If your Codex runtime supports compaction hooks, wire
+`pre-compact.sh` locally to print state into the conversation before compaction.
 
 **Sprint status tracking:** `production/sprint-status.yaml` is the
 machine-readable story tracker. Written by `/sprint-plan` (init) and

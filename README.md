@@ -13,6 +13,8 @@ project folder in Codex. The active runtime surfaces are the repo-local
 - 140 Codex skills under `.codex/skills`.
 - 54 Codex-native agent TOMLs under `.codex/agents`.
 - Studio workflow docs, rules, templates, and agent memory under `.codex/`.
+- Repo-local Codex hook routing in `.codex/hooks.json` and hook scripts in
+  `.codex/hooks/`.
 - Engine-family coverage for Godot, Unity, Unreal, and Web Browser.
 - Web Browser skills for Phaser, Three.js, React Three Fiber, hybrid browser
   games, UI/HUD, assets, sprites, and browser playtesting.

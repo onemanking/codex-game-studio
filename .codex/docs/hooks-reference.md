@@ -1,21 +1,32 @@
 # Active Hooks
 
-Hooks are configured in `.codex/settings.json` and fire automatically:
+Hooks are configured in `.codex/hooks.json`. On Windows, `hooks.json` calls
+`.codex/hooks/run-hook.ps1`, which finds Git Bash and forwards stdin to the
+target `.sh` script. The repo also includes optional helper scripts under
+`.codex/hooks/` that can be wired locally when your Codex runtime exposes the
+matching event.
+
+## Default Wired Hooks
 
 | Hook | Event | Trigger | Action |
 | ---- | ----- | ------- | ------ |
-| `validate-commit.sh` | PreToolUse (Bash) | `git commit` commands | Validates design doc sections, JSON data files, hardcoded values, TODO format |
-| `validate-push.sh` | PreToolUse (Bash) | `git push` commands | Warns on pushes to protected branches (develop/main) |
-| `validate-assets.sh` | PostToolUse (Write/Edit) | Asset file changes | Checks naming conventions and JSON validity for files in `assets/` |
-| `session-start.sh` | SessionStart | Session begins | Loads sprint context, milestone, git activity; detects and previews active session state file for recovery |
-| `detect-gaps.sh` | SessionStart | Session begins | Detects fresh projects (suggests /start) and missing documentation when code/prototypes exist, suggests /reverse-document or /project-stage-detect |
-| `pre-compact.sh` | PreCompact | Context compression | Dumps session state (active.md, modified files, WIP design docs) into conversation before compaction so it survives summarization |
-| `post-compact.sh` | PostCompact | After compaction | Reminds Codex to restore session state from `active.md` checkpoint |
-| `notify.sh` | Notification | Notification event | Shows Windows toast notification via PowerShell |
-| `session-stop.sh` | Stop | Session ends | Summarizes accomplishments and updates session log |
-| `log-agent.sh` | SubagentStart | Agent spawned | Audit trail start — logs subagent invocation with timestamp |
-| `log-agent-stop.sh` | SubagentStop | Agent stops | Audit trail stop — completes subagent record |
-| `validate-skill-change.sh` | PostToolUse (Write/Edit) | Skill file changes | Advises running `/skill-test` after any `.codex/skills/` file is written or edited |
+| `session-start.sh` | SessionStart | Session begins | Prints branch, HEAD, remote, working tree count, skill/agent counts, recent commits, and `active.md` preview |
+| `detect-gaps.sh` | SessionStart | Session begins | Detects missing template surfaces and early project setup gaps |
+| `validate-commit.sh` | PreToolUse | `git commit` commands | Blocks likely secrets, sensitive filenames, invalid JSON, staged diff issues, and broken Codex skill validation |
+| `validate-push.sh` | PreToolUse | `git push` commands | Warns on direct pushes from `main`/`master` and sensitive-looking local files |
+| `validate-assets.sh` | Stop | Session ends | Warns about invalid asset JSON and assets over 25 MB |
+| `validate-skill-change.sh` | Stop | Session ends | Runs `scripts/validate-skills.ps1` when Codex skills, agents, hooks, config, or validation scripts changed |
+| `session-stop.sh` | Stop | Session ends | Writes a gitignored session summary under `production/session-logs/` |
 
-Hook reference documentation: `.codex/docs/hooks-reference/`
+## Optional Helper Scripts
+
+| Hook | Intended Event | Action |
+| ---- | -------------- | ------ |
+| `pre-compact.sh` | PreCompact | Prints branch, HEAD, changed files, and `active.md` before context compaction |
+| `post-compact.sh` | PostCompact | Reminds Codex to restore from files after context compaction |
+| `notify.sh` | Notification | Prints notification text from the hook payload |
+| `log-agent.sh` | SubagentStart | Appends a bounded subagent start payload to the gitignored audit log |
+| `log-agent-stop.sh` | SubagentStop | Appends a bounded subagent stop payload to the gitignored audit log |
+
+Hook implementation directory: `.codex/hooks/`
 Hook input schema documentation: `.codex/docs/hooks-reference/hook-input-schemas.md`

@@ -1,0 +1,5 @@
+# Repo-local Codex defaults for this game-studio template.
+# Personal machine overrides belong in ~/.codex/config.toml.
+
+[features]
+codex_hooks = true

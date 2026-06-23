@@ -15,9 +15,10 @@ you'll lose validation features.
 
 | Tool | Used By | Purpose | Install |
 | ---- | ---- | ---- | ---- |
-| **jq** | Hooks (7 of 12) | JSON parsing in commit/push/asset/agent hooks | See below |
+| **jq** | Hooks | JSON parsing for hook payloads when available | See below |
 | **Python 3** | Hooks (2 of 12) | JSON validation for data files | [python.org](https://www.python.org/) |
-| **Bash** | All hooks | Shell script execution | Included with Git for Windows |
+| **PowerShell** | Hook launcher | Finds Git Bash and forwards hook payloads | Built into Windows |
+| **Bash** | Hook scripts | Shell script execution | Included with Git for Windows |
 
 ### Installing jq
 
@@ -43,11 +44,13 @@ sudo pacman -S jq       # Arch
 ## Platform Notes
 
 ### Windows
-- Git for Windows includes **Git Bash**, which provides the `bash` command
-  used by all hooks in `settings.json`
-- Ensure Git Bash is on your PATH (default if installed via the Git installer)
-- Hooks use `bash .codex/hooks/[name].sh` — this works on Windows because
-  Codex invokes commands through a shell that can find `bash.exe`
+- The hooks in `.codex/hooks.json` call `.codex/hooks/run-hook.ps1`.
+  The launcher finds Git Bash from your Git for Windows installation, even when
+  `bash` in PATH points to WSL.
+- Ensure Git for Windows itself is on PATH so the launcher can locate the Git
+  installation.
+- If Git Bash is installed in a custom location, set `GIT_BASH` to the full
+  path of `bash.exe`.
 
 ### macOS / Linux
 - Bash is available natively
@@ -68,9 +71,9 @@ python3 --version      # Should show python version (optional)
 
 | Missing Tool | Effect |
 | ---- | ---- |
-| **jq** | Commit validation, push protection, asset validation, and agent audit hooks silently skip their checks. Commits and pushes still work. |
+| **jq** | Hook payload parsing falls back to lightweight shell parsing. Most checks still run, but complex payloads may not be recognized. |
 | **Python 3** | JSON data file validation in commit and asset hooks is skipped. Invalid JSON can be committed without warning. |
-| **Both** | All hooks still execute without error (exit 0) but provide no validation. You're flying without safety nets. |
+| **Both** | Hooks still execute without error where possible. Secret filename checks and staged diff checks still run, but JSON payload parsing and JSON-file validation are reduced. |
 
 ## Recommended IDE
 

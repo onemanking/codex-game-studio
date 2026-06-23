@@ -1,0 +1,67 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"$(git rev-parse --show-toplevel)/.codex/hooks/run-hook.ps1\" -Hook session-start.sh",
+            "timeout": 10,
+            "statusMessage": "Loading Codex Game Studio context"
+          },
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"$(git rev-parse --show-toplevel)/.codex/hooks/run-hook.ps1\" -Hook detect-gaps.sh",
+            "timeout": 10,
+            "statusMessage": "Checking studio project gaps"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": ".*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"$(git rev-parse --show-toplevel)/.codex/hooks/run-hook.ps1\" -Hook validate-commit.sh",
+            "timeout": 30,
+            "statusMessage": "Validating commit safety"
+          },
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"$(git rev-parse --show-toplevel)/.codex/hooks/run-hook.ps1\" -Hook validate-push.sh",
+            "timeout": 15,
+            "statusMessage": "Checking push safety"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"$(git rev-parse --show-toplevel)/.codex/hooks/run-hook.ps1\" -Hook validate-assets.sh",
+            "timeout": 30,
+            "statusMessage": "Checking game assets"
+          },
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"$(git rev-parse --show-toplevel)/.codex/hooks/run-hook.ps1\" -Hook validate-skill-change.sh",
+            "timeout": 30,
+            "statusMessage": "Checking Codex studio skills"
+          },
+          {
+            "type": "command",
+            "command": "powershell -NoProfile -ExecutionPolicy Bypass -File \"$(git rev-parse --show-toplevel)/.codex/hooks/run-hook.ps1\" -Hook session-stop.sh",
+            "timeout": 10,
+            "statusMessage": "Recording studio session summary"
+          }
+        ]
+      }
+    ]
+  }
+}

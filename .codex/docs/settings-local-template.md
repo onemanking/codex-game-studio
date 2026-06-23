@@ -1,27 +1,15 @@
-# settings.local.json Template
+# Local Codex Overrides
 
-Create `.codex/settings.local.json` for personal overrides that should NOT
-be committed to version control. Add it to `.gitignore`.
+This template does not require a committed `.codex/settings.json` or
+`.codex/settings.local.json`. Shared project behavior lives in:
 
-## Example settings.local.json
+- `.codex/config.toml` for repo-local Codex feature defaults
+- `.codex/hooks.json` for repo-local hook routing
+- `.codex/hooks/` for shell scripts used by the hook router
 
-```json
-{
-  "permissions": {
-    "allow": [
-      "Bash(git *)",
-      "Bash(npm *)",
-      "Read",
-      "Glob",
-      "Grep"
-    ],
-    "deny": [
-      "Bash(rm -rf *)",
-      "Bash(git push --force *)"
-    ]
-  }
-}
-```
+Personal machine preferences belong in your global Codex configuration, usually
+`~/.codex/config.toml`. Do not commit personal approvals, credentials, local
+paths, API keys, or machine-specific tool paths into this template.
 
 ## Permission Modes
 
@@ -40,24 +28,7 @@ Use **read-only** permissions — Codex can read and search but not modify files
 
 ## Customizing Hooks Locally
 
-You can add personal hooks in `settings.local.json` that extend (not override)
-the project hooks. For example, adding a notification when builds complete:
-
-```json
-{
-  "hooks": {
-    "Stop": [
-      {
-        "matcher": "",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "bash -c 'echo Session ended at $(date)'",
-            "timeout": 5
-          }
-        ]
-      }
-    ]
-  }
-}
-```
+Keep shared hooks in `.codex/hooks.json`. For personal experiments, use a
+gitignored local file such as `.codex/hooks.local.json` only if your Codex
+install explicitly supports loading it. Otherwise, test local hook commands
+manually before proposing them as shared template behavior.

@@ -4,6 +4,9 @@ This directory is the active Codex surface for projects cloned from this templat
 
 - `skills/`: workspace-local skills loaded by Codex for the current repository.
 - `agents/`: workspace-local native agent TOMLs for game-studio roles.
+- `config.toml`: repo-local Codex feature defaults for this template.
+- `hooks.json`: repo-local hook routing for session, commit, push, and stop checks.
+- `hooks/`: shell hook scripts for context, validation, logging, and optional events.
 - `docs/`: studio workflow docs and templates used by skills.
 - `rules/`: domain rules for code, design, tests, narrative, and assets.
 - `agent-memory/`: repo-local agent notes carried over for this template.

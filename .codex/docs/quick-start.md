@@ -282,10 +282,11 @@ If you have design docs, prototypes, or code already:
 ```
 AGENTS.md                          -- Master config (read this first, ~60 lines)
 .codex/
-  settings.json                    -- Codex hooks and project settings
+  config.toml                      -- Repo-local Codex feature defaults
+  hooks.json                       -- Repo-local Codex hook routing
   agents/                          -- 54 agent definitions (TOML)
   skills/                          -- 140 workspace-local skill definitions
-  hooks/                           -- 12 hook scripts (.sh) wired by settings.json
+  hooks/                           -- 12 hook scripts (.sh), with core checks wired by hooks.json
   rules/                           -- 11 path-specific rule files
   docs/
     quick-start.md                 -- This file
@@ -296,6 +297,6 @@ AGENTS.md                          -- Master config (read this first, ~60 lines)
     directory-structure.md         -- Project directory layout
     workflow-catalog.yaml          -- 7-phase pipeline definition (read by /help)
     setup-requirements.md          -- System prerequisites (Git Bash, jq, Python)
-    settings-local-template.md     -- Personal settings.local.json guide
+    settings-local-template.md     -- Local override guidance
     templates/                     -- 41 document templates
 ```
