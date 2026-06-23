@@ -1,0 +1,60 @@
+# Codex Agent Inventory
+
+Static Codex-native game-studio agents maintained directly in this template.
+
+Agents: 54
+
+- `accessibility-specialist`
+- `ai-programmer`
+- `analytics-engineer`
+- `art-director`
+- `audio-director`
+- `browser-qa-specialist`
+- `community-manager`
+- `creative-director`
+- `devops-engineer`
+- `economy-designer`
+- `engine-programmer`
+- `game-designer`
+- `gameplay-programmer`
+- `godot-csharp-specialist`
+- `godot-gdextension-specialist`
+- `godot-gdscript-specialist`
+- `godot-shader-specialist`
+- `godot-specialist`
+- `lead-programmer`
+- `level-designer`
+- `live-ops-designer`
+- `localization-lead`
+- `narrative-director`
+- `network-programmer`
+- `performance-analyst`
+- `phaser-specialist`
+- `producer`
+- `prototyper`
+- `qa-lead`
+- `qa-tester`
+- `r3f-specialist`
+- `release-manager`
+- `security-engineer`
+- `sound-designer`
+- `systems-designer`
+- `technical-artist`
+- `technical-director`
+- `threejs-specialist`
+- `tools-programmer`
+- `ue-blueprint-specialist`
+- `ue-gas-specialist`
+- `ue-replication-specialist`
+- `ue-umg-specialist`
+- `ui-programmer`
+- `unity-addressables-specialist`
+- `unity-dots-specialist`
+- `unity-shader-specialist`
+- `unity-specialist`
+- `unity-ui-specialist`
+- `unreal-specialist`
+- `ux-designer`
+- `web-game-specialist`
+- `world-builder`
+- `writer`

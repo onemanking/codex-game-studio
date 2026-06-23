@@ -1,0 +1,524 @@
+﻿[
+    {
+        "source":  "r3f-skills",
+        "label":  "R3F Skills",
+        "url":  "https://github.com/EnzeD/r3f-skills",
+        "original_name":  "r3f-animation",
+        "codex_name":  "r3f-animation",
+        "source_folder":  "vendor/upstream-skills/r3f-skills/skills/r3f-animation",
+        "codex_folder":  ".codex/skills/r3f-animation"
+    },
+    {
+        "source":  "r3f-skills",
+        "label":  "R3F Skills",
+        "url":  "https://github.com/EnzeD/r3f-skills",
+        "original_name":  "r3f-fundamentals",
+        "codex_name":  "r3f-fundamentals",
+        "source_folder":  "vendor/upstream-skills/r3f-skills/skills/r3f-fundamentals",
+        "codex_folder":  ".codex/skills/r3f-fundamentals"
+    },
+    {
+        "source":  "r3f-skills",
+        "label":  "R3F Skills",
+        "url":  "https://github.com/EnzeD/r3f-skills",
+        "original_name":  "r3f-geometry",
+        "codex_name":  "r3f-geometry",
+        "source_folder":  "vendor/upstream-skills/r3f-skills/skills/r3f-geometry",
+        "codex_folder":  ".codex/skills/r3f-geometry"
+    },
+    {
+        "source":  "r3f-skills",
+        "label":  "R3F Skills",
+        "url":  "https://github.com/EnzeD/r3f-skills",
+        "original_name":  "r3f-interaction",
+        "codex_name":  "r3f-interaction",
+        "source_folder":  "vendor/upstream-skills/r3f-skills/skills/r3f-interaction",
+        "codex_folder":  ".codex/skills/r3f-interaction"
+    },
+    {
+        "source":  "r3f-skills",
+        "label":  "R3F Skills",
+        "url":  "https://github.com/EnzeD/r3f-skills",
+        "original_name":  "r3f-lighting",
+        "codex_name":  "r3f-lighting",
+        "source_folder":  "vendor/upstream-skills/r3f-skills/skills/r3f-lighting",
+        "codex_folder":  ".codex/skills/r3f-lighting"
+    },
+    {
+        "source":  "r3f-skills",
+        "label":  "R3F Skills",
+        "url":  "https://github.com/EnzeD/r3f-skills",
+        "original_name":  "r3f-loaders",
+        "codex_name":  "r3f-loaders",
+        "source_folder":  "vendor/upstream-skills/r3f-skills/skills/r3f-loaders",
+        "codex_folder":  ".codex/skills/r3f-loaders"
+    },
+    {
+        "source":  "r3f-skills",
+        "label":  "R3F Skills",
+        "url":  "https://github.com/EnzeD/r3f-skills",
+        "original_name":  "r3f-materials",
+        "codex_name":  "r3f-materials",
+        "source_folder":  "vendor/upstream-skills/r3f-skills/skills/r3f-materials",
+        "codex_folder":  ".codex/skills/r3f-materials"
+    },
+    {
+        "source":  "r3f-skills",
+        "label":  "R3F Skills",
+        "url":  "https://github.com/EnzeD/r3f-skills",
+        "original_name":  "r3f-physics",
+        "codex_name":  "r3f-physics",
+        "source_folder":  "vendor/upstream-skills/r3f-skills/skills/r3f-physics",
+        "codex_folder":  ".codex/skills/r3f-physics"
+    },
+    {
+        "source":  "r3f-skills",
+        "label":  "R3F Skills",
+        "url":  "https://github.com/EnzeD/r3f-skills",
+        "original_name":  "r3f-postprocessing",
+        "codex_name":  "r3f-postprocessing",
+        "source_folder":  "vendor/upstream-skills/r3f-skills/skills/r3f-postprocessing",
+        "codex_folder":  ".codex/skills/r3f-postprocessing"
+    },
+    {
+        "source":  "r3f-skills",
+        "label":  "R3F Skills",
+        "url":  "https://github.com/EnzeD/r3f-skills",
+        "original_name":  "r3f-shaders",
+        "codex_name":  "r3f-shaders",
+        "source_folder":  "vendor/upstream-skills/r3f-skills/skills/r3f-shaders",
+        "codex_folder":  ".codex/skills/r3f-shaders"
+    },
+    {
+        "source":  "r3f-skills",
+        "label":  "R3F Skills",
+        "url":  "https://github.com/EnzeD/r3f-skills",
+        "original_name":  "r3f-textures",
+        "codex_name":  "r3f-textures",
+        "source_folder":  "vendor/upstream-skills/r3f-skills/skills/r3f-textures",
+        "codex_folder":  ".codex/skills/r3f-textures"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "actions-and-utilities",
+        "codex_name":  "phaser-actions-and-utilities",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/actions-and-utilities",
+        "codex_folder":  ".codex/skills/phaser-actions-and-utilities"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "animations",
+        "codex_name":  "phaser-animations",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/animations",
+        "codex_folder":  ".codex/skills/phaser-animations"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "audio-and-sound",
+        "codex_name":  "phaser-audio-and-sound",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/audio-and-sound",
+        "codex_folder":  ".codex/skills/phaser-audio-and-sound"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "cameras",
+        "codex_name":  "phaser-cameras",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/cameras",
+        "codex_folder":  ".codex/skills/phaser-cameras"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "curves-and-paths",
+        "codex_name":  "phaser-curves-and-paths",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/curves-and-paths",
+        "codex_folder":  ".codex/skills/phaser-curves-and-paths"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "data-manager",
+        "codex_name":  "phaser-data-manager",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/data-manager",
+        "codex_folder":  ".codex/skills/phaser-data-manager"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "events-system",
+        "codex_name":  "phaser-events-system",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/events-system",
+        "codex_folder":  ".codex/skills/phaser-events-system"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "filters-and-postfx",
+        "codex_name":  "phaser-filters-and-postfx",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/filters-and-postfx",
+        "codex_folder":  ".codex/skills/phaser-filters-and-postfx"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "game-object-components",
+        "codex_name":  "phaser-game-object-components",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/game-object-components",
+        "codex_folder":  ".codex/skills/phaser-game-object-components"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "game-setup-and-config",
+        "codex_name":  "phaser-game-setup-and-config",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/game-setup-and-config",
+        "codex_folder":  ".codex/skills/phaser-game-setup-and-config"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "geometry-and-math",
+        "codex_name":  "phaser-geometry-and-math",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/geometry-and-math",
+        "codex_folder":  ".codex/skills/phaser-geometry-and-math"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "graphics-and-shapes",
+        "codex_name":  "phaser-graphics-and-shapes",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/graphics-and-shapes",
+        "codex_folder":  ".codex/skills/phaser-graphics-and-shapes"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "groups-and-containers",
+        "codex_name":  "phaser-groups-and-containers",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/groups-and-containers",
+        "codex_folder":  ".codex/skills/phaser-groups-and-containers"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "input-keyboard-mouse-touch",
+        "codex_name":  "phaser-input-keyboard-mouse-touch",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/input-keyboard-mouse-touch",
+        "codex_folder":  ".codex/skills/phaser-input-keyboard-mouse-touch"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "loading-assets",
+        "codex_name":  "phaser-loading-assets",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/loading-assets",
+        "codex_folder":  ".codex/skills/phaser-loading-assets"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "particles",
+        "codex_name":  "phaser-particles",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/particles",
+        "codex_folder":  ".codex/skills/phaser-particles"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "physics-arcade",
+        "codex_name":  "phaser-physics-arcade",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/physics-arcade",
+        "codex_folder":  ".codex/skills/phaser-physics-arcade"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "physics-matter",
+        "codex_name":  "phaser-physics-matter",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/physics-matter",
+        "codex_folder":  ".codex/skills/phaser-physics-matter"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "render-textures",
+        "codex_name":  "phaser-render-textures",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/render-textures",
+        "codex_folder":  ".codex/skills/phaser-render-textures"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "scale-and-responsive",
+        "codex_name":  "phaser-scale-and-responsive",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/scale-and-responsive",
+        "codex_folder":  ".codex/skills/phaser-scale-and-responsive"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "scenes",
+        "codex_name":  "phaser-scenes",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/scenes",
+        "codex_folder":  ".codex/skills/phaser-scenes"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "sprites-and-images",
+        "codex_name":  "phaser-sprites-and-images",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/sprites-and-images",
+        "codex_folder":  ".codex/skills/phaser-sprites-and-images"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "text-and-bitmaptext",
+        "codex_name":  "phaser-text-and-bitmaptext",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/text-and-bitmaptext",
+        "codex_folder":  ".codex/skills/phaser-text-and-bitmaptext"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "tilemaps",
+        "codex_name":  "phaser-tilemaps",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/tilemaps",
+        "codex_folder":  ".codex/skills/phaser-tilemaps"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "time-and-timers",
+        "codex_name":  "phaser-time-and-timers",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/time-and-timers",
+        "codex_folder":  ".codex/skills/phaser-time-and-timers"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "tweens",
+        "codex_name":  "phaser-tweens",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/tweens",
+        "codex_folder":  ".codex/skills/phaser-tweens"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "v3-to-v4-migration",
+        "codex_name":  "phaser-v3-to-v4-migration",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/v3-to-v4-migration",
+        "codex_folder":  ".codex/skills/phaser-v3-to-v4-migration"
+    },
+    {
+        "source":  "phaser",
+        "label":  "Phaser Skills",
+        "url":  "https://github.com/phaserjs/phaser/tree/master/skills",
+        "original_name":  "v4-new-features",
+        "codex_name":  "phaser-v4-new-features",
+        "source_folder":  "vendor/upstream-skills/phaser/skills/v4-new-features",
+        "codex_folder":  ".codex/skills/phaser-v4-new-features"
+    },
+    {
+        "source":  "threejs-game-skills",
+        "label":  "Three.js Game Skills",
+        "url":  "https://github.com/majidmanzarpour/threejs-game-skills",
+        "original_name":  "threejs-3d-generator",
+        "codex_name":  "threejs-3d-generator",
+        "source_folder":  "vendor/upstream-skills/threejs-game-skills/skills/threejs-3d-generator",
+        "codex_folder":  ".codex/skills/threejs-3d-generator"
+    },
+    {
+        "source":  "threejs-game-skills",
+        "label":  "Three.js Game Skills",
+        "url":  "https://github.com/majidmanzarpour/threejs-game-skills",
+        "original_name":  "threejs-aaa-graphics-builder",
+        "codex_name":  "threejs-aaa-graphics-builder",
+        "source_folder":  "vendor/upstream-skills/threejs-game-skills/skills/threejs-aaa-graphics-builder",
+        "codex_folder":  ".codex/skills/threejs-aaa-graphics-builder"
+    },
+    {
+        "source":  "threejs-game-skills",
+        "label":  "Three.js Game Skills",
+        "url":  "https://github.com/majidmanzarpour/threejs-game-skills",
+        "original_name":  "threejs-audio-generator",
+        "codex_name":  "threejs-audio-generator",
+        "source_folder":  "vendor/upstream-skills/threejs-game-skills/skills/threejs-audio-generator",
+        "codex_folder":  ".codex/skills/threejs-audio-generator"
+    },
+    {
+        "source":  "threejs-game-skills",
+        "label":  "Three.js Game Skills",
+        "url":  "https://github.com/majidmanzarpour/threejs-game-skills",
+        "original_name":  "threejs-debug-profiler",
+        "codex_name":  "threejs-debug-profiler",
+        "source_folder":  "vendor/upstream-skills/threejs-game-skills/skills/threejs-debug-profiler",
+        "codex_folder":  ".codex/skills/threejs-debug-profiler"
+    },
+    {
+        "source":  "threejs-game-skills",
+        "label":  "Three.js Game Skills",
+        "url":  "https://github.com/majidmanzarpour/threejs-game-skills",
+        "original_name":  "threejs-game-director",
+        "codex_name":  "threejs-game-director",
+        "source_folder":  "vendor/upstream-skills/threejs-game-skills/skills/threejs-game-director",
+        "codex_folder":  ".codex/skills/threejs-game-director"
+    },
+    {
+        "source":  "threejs-game-skills",
+        "label":  "Three.js Game Skills",
+        "url":  "https://github.com/majidmanzarpour/threejs-game-skills",
+        "original_name":  "threejs-gameplay-systems",
+        "codex_name":  "threejs-gameplay-systems",
+        "source_folder":  "vendor/upstream-skills/threejs-game-skills/skills/threejs-gameplay-systems",
+        "codex_folder":  ".codex/skills/threejs-gameplay-systems"
+    },
+    {
+        "source":  "threejs-game-skills",
+        "label":  "Three.js Game Skills",
+        "url":  "https://github.com/majidmanzarpour/threejs-game-skills",
+        "original_name":  "threejs-game-ui-designer",
+        "codex_name":  "threejs-game-ui-designer",
+        "source_folder":  "vendor/upstream-skills/threejs-game-skills/skills/threejs-game-ui-designer",
+        "codex_folder":  ".codex/skills/threejs-game-ui-designer"
+    },
+    {
+        "source":  "threejs-game-skills",
+        "label":  "Three.js Game Skills",
+        "url":  "https://github.com/majidmanzarpour/threejs-game-skills",
+        "original_name":  "threejs-image-generator",
+        "codex_name":  "threejs-image-generator",
+        "source_folder":  "vendor/upstream-skills/threejs-game-skills/skills/threejs-image-generator",
+        "codex_folder":  ".codex/skills/threejs-image-generator"
+    },
+    {
+        "source":  "threejs-game-skills",
+        "label":  "Three.js Game Skills",
+        "url":  "https://github.com/majidmanzarpour/threejs-game-skills",
+        "original_name":  "threejs-qa-release",
+        "codex_name":  "threejs-qa-release",
+        "source_folder":  "vendor/upstream-skills/threejs-game-skills/skills/threejs-qa-release",
+        "codex_folder":  ".codex/skills/threejs-qa-release"
+    },
+    {
+        "source":  "cloudai-threejs-skills",
+        "label":  "CloudAI-X Three.js Skills",
+        "url":  "https://github.com/cloudai-x/threejs-skills",
+        "original_name":  "threejs-animation",
+        "codex_name":  "threejs-animation",
+        "source_folder":  "vendor/upstream-skills/cloudai-threejs-skills/skills/threejs-animation",
+        "codex_folder":  ".codex/skills/threejs-animation"
+    },
+    {
+        "source":  "cloudai-threejs-skills",
+        "label":  "CloudAI-X Three.js Skills",
+        "url":  "https://github.com/cloudai-x/threejs-skills",
+        "original_name":  "threejs-fundamentals",
+        "codex_name":  "threejs-fundamentals",
+        "source_folder":  "vendor/upstream-skills/cloudai-threejs-skills/skills/threejs-fundamentals",
+        "codex_folder":  ".codex/skills/threejs-fundamentals"
+    },
+    {
+        "source":  "cloudai-threejs-skills",
+        "label":  "CloudAI-X Three.js Skills",
+        "url":  "https://github.com/cloudai-x/threejs-skills",
+        "original_name":  "threejs-geometry",
+        "codex_name":  "threejs-geometry",
+        "source_folder":  "vendor/upstream-skills/cloudai-threejs-skills/skills/threejs-geometry",
+        "codex_folder":  ".codex/skills/threejs-geometry"
+    },
+    {
+        "source":  "cloudai-threejs-skills",
+        "label":  "CloudAI-X Three.js Skills",
+        "url":  "https://github.com/cloudai-x/threejs-skills",
+        "original_name":  "threejs-interaction",
+        "codex_name":  "threejs-interaction",
+        "source_folder":  "vendor/upstream-skills/cloudai-threejs-skills/skills/threejs-interaction",
+        "codex_folder":  ".codex/skills/threejs-interaction"
+    },
+    {
+        "source":  "cloudai-threejs-skills",
+        "label":  "CloudAI-X Three.js Skills",
+        "url":  "https://github.com/cloudai-x/threejs-skills",
+        "original_name":  "threejs-lighting",
+        "codex_name":  "threejs-lighting",
+        "source_folder":  "vendor/upstream-skills/cloudai-threejs-skills/skills/threejs-lighting",
+        "codex_folder":  ".codex/skills/threejs-lighting"
+    },
+    {
+        "source":  "cloudai-threejs-skills",
+        "label":  "CloudAI-X Three.js Skills",
+        "url":  "https://github.com/cloudai-x/threejs-skills",
+        "original_name":  "threejs-loaders",
+        "codex_name":  "threejs-loaders",
+        "source_folder":  "vendor/upstream-skills/cloudai-threejs-skills/skills/threejs-loaders",
+        "codex_folder":  ".codex/skills/threejs-loaders"
+    },
+    {
+        "source":  "cloudai-threejs-skills",
+        "label":  "CloudAI-X Three.js Skills",
+        "url":  "https://github.com/cloudai-x/threejs-skills",
+        "original_name":  "threejs-materials",
+        "codex_name":  "threejs-materials",
+        "source_folder":  "vendor/upstream-skills/cloudai-threejs-skills/skills/threejs-materials",
+        "codex_folder":  ".codex/skills/threejs-materials"
+    },
+    {
+        "source":  "cloudai-threejs-skills",
+        "label":  "CloudAI-X Three.js Skills",
+        "url":  "https://github.com/cloudai-x/threejs-skills",
+        "original_name":  "threejs-postprocessing",
+        "codex_name":  "threejs-postprocessing",
+        "source_folder":  "vendor/upstream-skills/cloudai-threejs-skills/skills/threejs-postprocessing",
+        "codex_folder":  ".codex/skills/threejs-postprocessing"
+    },
+    {
+        "source":  "cloudai-threejs-skills",
+        "label":  "CloudAI-X Three.js Skills",
+        "url":  "https://github.com/cloudai-x/threejs-skills",
+        "original_name":  "threejs-shaders",
+        "codex_name":  "threejs-shaders",
+        "source_folder":  "vendor/upstream-skills/cloudai-threejs-skills/skills/threejs-shaders",
+        "codex_folder":  ".codex/skills/threejs-shaders"
+    },
+    {
+        "source":  "cloudai-threejs-skills",
+        "label":  "CloudAI-X Three.js Skills",
+        "url":  "https://github.com/cloudai-x/threejs-skills",
+        "original_name":  "threejs-textures",
+        "codex_name":  "threejs-textures",
+        "source_folder":  "vendor/upstream-skills/cloudai-threejs-skills/skills/threejs-textures",
+        "codex_folder":  ".codex/skills/threejs-textures"
+    }
+]

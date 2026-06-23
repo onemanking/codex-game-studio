@@ -1,0 +1,218 @@
+[
+  {
+    "name": "accessibility-specialist",
+    "folder": ".codex/agents/accessibility-specialist.toml"
+  },
+  {
+    "name": "ai-programmer",
+    "folder": ".codex/agents/ai-programmer.toml"
+  },
+  {
+    "name": "analytics-engineer",
+    "folder": ".codex/agents/analytics-engineer.toml"
+  },
+  {
+    "name": "art-director",
+    "folder": ".codex/agents/art-director.toml"
+  },
+  {
+    "name": "audio-director",
+    "folder": ".codex/agents/audio-director.toml"
+  },
+  {
+    "name": "browser-qa-specialist",
+    "folder": ".codex/agents/browser-qa-specialist.toml"
+  },
+  {
+    "name": "community-manager",
+    "folder": ".codex/agents/community-manager.toml"
+  },
+  {
+    "name": "creative-director",
+    "folder": ".codex/agents/creative-director.toml"
+  },
+  {
+    "name": "devops-engineer",
+    "folder": ".codex/agents/devops-engineer.toml"
+  },
+  {
+    "name": "economy-designer",
+    "folder": ".codex/agents/economy-designer.toml"
+  },
+  {
+    "name": "engine-programmer",
+    "folder": ".codex/agents/engine-programmer.toml"
+  },
+  {
+    "name": "game-designer",
+    "folder": ".codex/agents/game-designer.toml"
+  },
+  {
+    "name": "gameplay-programmer",
+    "folder": ".codex/agents/gameplay-programmer.toml"
+  },
+  {
+    "name": "godot-csharp-specialist",
+    "folder": ".codex/agents/godot-csharp-specialist.toml"
+  },
+  {
+    "name": "godot-gdextension-specialist",
+    "folder": ".codex/agents/godot-gdextension-specialist.toml"
+  },
+  {
+    "name": "godot-gdscript-specialist",
+    "folder": ".codex/agents/godot-gdscript-specialist.toml"
+  },
+  {
+    "name": "godot-shader-specialist",
+    "folder": ".codex/agents/godot-shader-specialist.toml"
+  },
+  {
+    "name": "godot-specialist",
+    "folder": ".codex/agents/godot-specialist.toml"
+  },
+  {
+    "name": "lead-programmer",
+    "folder": ".codex/agents/lead-programmer.toml"
+  },
+  {
+    "name": "level-designer",
+    "folder": ".codex/agents/level-designer.toml"
+  },
+  {
+    "name": "live-ops-designer",
+    "folder": ".codex/agents/live-ops-designer.toml"
+  },
+  {
+    "name": "localization-lead",
+    "folder": ".codex/agents/localization-lead.toml"
+  },
+  {
+    "name": "narrative-director",
+    "folder": ".codex/agents/narrative-director.toml"
+  },
+  {
+    "name": "network-programmer",
+    "folder": ".codex/agents/network-programmer.toml"
+  },
+  {
+    "name": "performance-analyst",
+    "folder": ".codex/agents/performance-analyst.toml"
+  },
+  {
+    "name": "phaser-specialist",
+    "folder": ".codex/agents/phaser-specialist.toml"
+  },
+  {
+    "name": "producer",
+    "folder": ".codex/agents/producer.toml"
+  },
+  {
+    "name": "prototyper",
+    "folder": ".codex/agents/prototyper.toml"
+  },
+  {
+    "name": "qa-lead",
+    "folder": ".codex/agents/qa-lead.toml"
+  },
+  {
+    "name": "qa-tester",
+    "folder": ".codex/agents/qa-tester.toml"
+  },
+  {
+    "name": "r3f-specialist",
+    "folder": ".codex/agents/r3f-specialist.toml"
+  },
+  {
+    "name": "release-manager",
+    "folder": ".codex/agents/release-manager.toml"
+  },
+  {
+    "name": "security-engineer",
+    "folder": ".codex/agents/security-engineer.toml"
+  },
+  {
+    "name": "sound-designer",
+    "folder": ".codex/agents/sound-designer.toml"
+  },
+  {
+    "name": "systems-designer",
+    "folder": ".codex/agents/systems-designer.toml"
+  },
+  {
+    "name": "technical-artist",
+    "folder": ".codex/agents/technical-artist.toml"
+  },
+  {
+    "name": "technical-director",
+    "folder": ".codex/agents/technical-director.toml"
+  },
+  {
+    "name": "threejs-specialist",
+    "folder": ".codex/agents/threejs-specialist.toml"
+  },
+  {
+    "name": "tools-programmer",
+    "folder": ".codex/agents/tools-programmer.toml"
+  },
+  {
+    "name": "ue-blueprint-specialist",
+    "folder": ".codex/agents/ue-blueprint-specialist.toml"
+  },
+  {
+    "name": "ue-gas-specialist",
+    "folder": ".codex/agents/ue-gas-specialist.toml"
+  },
+  {
+    "name": "ue-replication-specialist",
+    "folder": ".codex/agents/ue-replication-specialist.toml"
+  },
+  {
+    "name": "ue-umg-specialist",
+    "folder": ".codex/agents/ue-umg-specialist.toml"
+  },
+  {
+    "name": "ui-programmer",
+    "folder": ".codex/agents/ui-programmer.toml"
+  },
+  {
+    "name": "unity-addressables-specialist",
+    "folder": ".codex/agents/unity-addressables-specialist.toml"
+  },
+  {
+    "name": "unity-dots-specialist",
+    "folder": ".codex/agents/unity-dots-specialist.toml"
+  },
+  {
+    "name": "unity-shader-specialist",
+    "folder": ".codex/agents/unity-shader-specialist.toml"
+  },
+  {
+    "name": "unity-specialist",
+    "folder": ".codex/agents/unity-specialist.toml"
+  },
+  {
+    "name": "unity-ui-specialist",
+    "folder": ".codex/agents/unity-ui-specialist.toml"
+  },
+  {
+    "name": "unreal-specialist",
+    "folder": ".codex/agents/unreal-specialist.toml"
+  },
+  {
+    "name": "ux-designer",
+    "folder": ".codex/agents/ux-designer.toml"
+  },
+  {
+    "name": "web-game-specialist",
+    "folder": ".codex/agents/web-game-specialist.toml"
+  },
+  {
+    "name": "world-builder",
+    "folder": ".codex/agents/world-builder.toml"
+  },
+  {
+    "name": "writer",
+    "folder": ".codex/agents/writer.toml"
+  }
+]

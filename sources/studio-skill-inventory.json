@@ -1,0 +1,330 @@
+[
+  {
+    "name": "adopt",
+    "folder": ".codex/skills/adopt"
+  },
+  {
+    "name": "architecture-decision",
+    "folder": ".codex/skills/architecture-decision"
+  },
+  {
+    "name": "architecture-review",
+    "folder": ".codex/skills/architecture-review"
+  },
+  {
+    "name": "art-bible",
+    "folder": ".codex/skills/art-bible"
+  },
+  {
+    "name": "asset-audit",
+    "folder": ".codex/skills/asset-audit"
+  },
+  {
+    "name": "asset-spec",
+    "folder": ".codex/skills/asset-spec"
+  },
+  {
+    "name": "balance-check",
+    "folder": ".codex/skills/balance-check"
+  },
+  {
+    "name": "brainstorm",
+    "folder": ".codex/skills/brainstorm"
+  },
+  {
+    "name": "bug-report",
+    "folder": ".codex/skills/bug-report"
+  },
+  {
+    "name": "bug-triage",
+    "folder": ".codex/skills/bug-triage"
+  },
+  {
+    "name": "changelog",
+    "folder": ".codex/skills/changelog"
+  },
+  {
+    "name": "code-review",
+    "folder": ".codex/skills/code-review"
+  },
+  {
+    "name": "consistency-check",
+    "folder": ".codex/skills/consistency-check"
+  },
+  {
+    "name": "content-audit",
+    "folder": ".codex/skills/content-audit"
+  },
+  {
+    "name": "create-architecture",
+    "folder": ".codex/skills/create-architecture"
+  },
+  {
+    "name": "create-control-manifest",
+    "folder": ".codex/skills/create-control-manifest"
+  },
+  {
+    "name": "create-epics",
+    "folder": ".codex/skills/create-epics"
+  },
+  {
+    "name": "create-stories",
+    "folder": ".codex/skills/create-stories"
+  },
+  {
+    "name": "day-one-patch",
+    "folder": ".codex/skills/day-one-patch"
+  },
+  {
+    "name": "design-review",
+    "folder": ".codex/skills/design-review"
+  },
+  {
+    "name": "design-system",
+    "folder": ".codex/skills/design-system"
+  },
+  {
+    "name": "dev-story",
+    "folder": ".codex/skills/dev-story"
+  },
+  {
+    "name": "estimate",
+    "folder": ".codex/skills/estimate"
+  },
+  {
+    "name": "game-playtest",
+    "folder": ".codex/skills/game-playtest"
+  },
+  {
+    "name": "game-ui-frontend",
+    "folder": ".codex/skills/game-ui-frontend"
+  },
+  {
+    "name": "gate-check",
+    "folder": ".codex/skills/gate-check"
+  },
+  {
+    "name": "help",
+    "folder": ".codex/skills/help"
+  },
+  {
+    "name": "hotfix",
+    "folder": ".codex/skills/hotfix"
+  },
+  {
+    "name": "launch-checklist",
+    "folder": ".codex/skills/launch-checklist"
+  },
+  {
+    "name": "localize",
+    "folder": ".codex/skills/localize"
+  },
+  {
+    "name": "map-systems",
+    "folder": ".codex/skills/map-systems"
+  },
+  {
+    "name": "milestone-review",
+    "folder": ".codex/skills/milestone-review"
+  },
+  {
+    "name": "onboard",
+    "folder": ".codex/skills/onboard"
+  },
+  {
+    "name": "patch-notes",
+    "folder": ".codex/skills/patch-notes"
+  },
+  {
+    "name": "perf-profile",
+    "folder": ".codex/skills/perf-profile"
+  },
+  {
+    "name": "phaser-2d-game",
+    "folder": ".codex/skills/phaser-2d-game"
+  },
+  {
+    "name": "playtest-report",
+    "folder": ".codex/skills/playtest-report"
+  },
+  {
+    "name": "project-stage-detect",
+    "folder": ".codex/skills/project-stage-detect"
+  },
+  {
+    "name": "propagate-design-change",
+    "folder": ".codex/skills/propagate-design-change"
+  },
+  {
+    "name": "prototype",
+    "folder": ".codex/skills/prototype"
+  },
+  {
+    "name": "qa-plan",
+    "folder": ".codex/skills/qa-plan"
+  },
+  {
+    "name": "quick-design",
+    "folder": ".codex/skills/quick-design"
+  },
+  {
+    "name": "react-three-fiber-game",
+    "folder": ".codex/skills/react-three-fiber-game"
+  },
+  {
+    "name": "regression-suite",
+    "folder": ".codex/skills/regression-suite"
+  },
+  {
+    "name": "release-checklist",
+    "folder": ".codex/skills/release-checklist"
+  },
+  {
+    "name": "retrospective",
+    "folder": ".codex/skills/retrospective"
+  },
+  {
+    "name": "reverse-document",
+    "folder": ".codex/skills/reverse-document"
+  },
+  {
+    "name": "review-all-gdds",
+    "folder": ".codex/skills/review-all-gdds"
+  },
+  {
+    "name": "scope-check",
+    "folder": ".codex/skills/scope-check"
+  },
+  {
+    "name": "security-audit",
+    "folder": ".codex/skills/security-audit"
+  },
+  {
+    "name": "setup-engine",
+    "folder": ".codex/skills/setup-engine"
+  },
+  {
+    "name": "skill-improve",
+    "folder": ".codex/skills/skill-improve"
+  },
+  {
+    "name": "skill-test",
+    "folder": ".codex/skills/skill-test"
+  },
+  {
+    "name": "smoke-check",
+    "folder": ".codex/skills/smoke-check"
+  },
+  {
+    "name": "soak-test",
+    "folder": ".codex/skills/soak-test"
+  },
+  {
+    "name": "sprint-plan",
+    "folder": ".codex/skills/sprint-plan"
+  },
+  {
+    "name": "sprint-status",
+    "folder": ".codex/skills/sprint-status"
+  },
+  {
+    "name": "sprite-pipeline",
+    "folder": ".codex/skills/sprite-pipeline"
+  },
+  {
+    "name": "start",
+    "folder": ".codex/skills/start"
+  },
+  {
+    "name": "story-done",
+    "folder": ".codex/skills/story-done"
+  },
+  {
+    "name": "story-readiness",
+    "folder": ".codex/skills/story-readiness"
+  },
+  {
+    "name": "team-audio",
+    "folder": ".codex/skills/team-audio"
+  },
+  {
+    "name": "team-combat",
+    "folder": ".codex/skills/team-combat"
+  },
+  {
+    "name": "team-level",
+    "folder": ".codex/skills/team-level"
+  },
+  {
+    "name": "team-live-ops",
+    "folder": ".codex/skills/team-live-ops"
+  },
+  {
+    "name": "team-narrative",
+    "folder": ".codex/skills/team-narrative"
+  },
+  {
+    "name": "team-polish",
+    "folder": ".codex/skills/team-polish"
+  },
+  {
+    "name": "team-qa",
+    "folder": ".codex/skills/team-qa"
+  },
+  {
+    "name": "team-release",
+    "folder": ".codex/skills/team-release"
+  },
+  {
+    "name": "team-ui",
+    "folder": ".codex/skills/team-ui"
+  },
+  {
+    "name": "tech-debt",
+    "folder": ".codex/skills/tech-debt"
+  },
+  {
+    "name": "test-evidence-review",
+    "folder": ".codex/skills/test-evidence-review"
+  },
+  {
+    "name": "test-flakiness",
+    "folder": ".codex/skills/test-flakiness"
+  },
+  {
+    "name": "test-helpers",
+    "folder": ".codex/skills/test-helpers"
+  },
+  {
+    "name": "test-setup",
+    "folder": ".codex/skills/test-setup"
+  },
+  {
+    "name": "three-webgl-game",
+    "folder": ".codex/skills/three-webgl-game"
+  },
+  {
+    "name": "ux-design",
+    "folder": ".codex/skills/ux-design"
+  },
+  {
+    "name": "ux-review",
+    "folder": ".codex/skills/ux-review"
+  },
+  {
+    "name": "vertical-slice",
+    "folder": ".codex/skills/vertical-slice"
+  },
+  {
+    "name": "web-3d-asset-pipeline",
+    "folder": ".codex/skills/web-3d-asset-pipeline"
+  },
+  {
+    "name": "web-browser-game",
+    "folder": ".codex/skills/web-browser-game"
+  },
+  {
+    "name": "web-game-foundations",
+    "folder": ".codex/skills/web-game-foundations"
+  }
+]
