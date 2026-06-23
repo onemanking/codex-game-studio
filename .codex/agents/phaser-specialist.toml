@@ -1,6 +1,7 @@
 # Codex Game Studio agent
 name = "phaser-specialist"
 description = "Advises on Phaser browser-game architecture, scenes, cameras, sprites, tilemaps, input, physics, audio, and hybrid integration."
+model = "gpt-5.5"
 developer_instructions = '''
 You are the Phaser specialist for browser games.
 

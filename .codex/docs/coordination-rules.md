@@ -22,6 +22,15 @@ Skills and agents are assigned to model tiers based on task complexity:
 | **Standard** | `standard Codex model` | Implementation, design authoring, analysis of individual systems — default for most work |
 | **Deep** | `deep-reasoning Codex model` | Multi-document synthesis, high-stakes phase gate verdicts, cross-system holistic review |
 
+Explicit agent `model` fields override the tier label:
+
+- Use `gpt-5.3-codex-spark` only for execution-focused implementers whose job is
+  to produce code/config changes from an accepted direction: programmer roles,
+  build/deploy automation, and rapid prototype execution.
+- Use `gpt-5.5` for specialist and judgment-heavy roles that evaluate tradeoffs,
+  interpret engine/framework constraints, review quality, or advise the
+  implementation path before code is written.
+
 Skills with `reasoning: fast`: `/help`, `/sprint-status`, `/story-readiness`, `/scope-check`,
 `/project-stage-detect`, `/changelog`, `/patch-notes`, `/onboard`
 
