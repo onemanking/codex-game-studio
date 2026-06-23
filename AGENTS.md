@@ -12,9 +12,10 @@ and `.codex/agents` as the active workspace surfaces.
    `scripts/sync-upstream-skills.ps1`.
 4. Run `scripts/validate-skills.ps1` after changing skills, agents, or sync logic.
 5. Preserve source attribution for imported skills and templates in `NOTICE.md`.
-6. Treat Web Browser as an engine family alongside Godot, Unity, and Unreal;
-   route browser games through `web-browser-game` before picking Phaser,
-   Three.js, React Three Fiber, or a hybrid stack.
+6. Treat Web Browser as an engine family alongside Godot, Unity, and Unreal.
+   Route browser games through the installed Codex Game Studio plugin
+   `game-studio` skill before picking Phaser, Three.js, React Three Fiber, or a
+   hybrid stack. Do not duplicate those plugin skills in this repository.
 
 ## Game Development Bar
 

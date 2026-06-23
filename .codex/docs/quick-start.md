@@ -87,9 +87,9 @@ Ask yourself: "What department would handle this in a real studio?"
 | `/help` | Context-aware "what do I do next?" — reads your current phase and artifacts |
 | `/project-stage-detect` | Analyze project state, detect stage, identify gaps |
 | `/setup-engine` | Configure engine + version, populate reference docs |
-| `/web-browser-game` | Route Web Browser engine-family work across Phaser, Three.js, R3F, assets, UI, and QA |
-| `/web-game-foundations` | Define browser-game architecture, runtime ownership, input, audio, storage, and deployment constraints |
-| `/game-playtest` | Run browser-game smoke/playtest checks with console, canvas, input, audio, and viewport evidence |
+| `/game-studio` | Browser-game router supplied by the installed Codex Game Studio plugin |
+| `/web-game-foundations` | Browser architecture skill supplied by the installed Codex Game Studio plugin |
+| `/game-playtest` | Browser playtest skill supplied by the installed Codex Game Studio plugin |
 | `/adopt` | Brownfield audit and migration plan for existing projects |
 | `/brainstorm` | Guided game concept ideation from scratch |
 | `/map-systems` | Decompose concept into systems, map dependencies, guide per-system GDDs |
@@ -285,7 +285,7 @@ AGENTS.md                          -- Master config (read this first, ~60 lines)
   config.toml                      -- Repo-local Codex feature defaults
   hooks.json                       -- Repo-local Codex hook routing
   agents/                          -- 54 agent definitions (TOML)
-  skills/                          -- 140 workspace-local skill definitions
+  skills/                          -- 131 workspace-local skill definitions
   hooks/                           -- 12 hook scripts (.sh), with core checks wired by hooks.json
   rules/                           -- 11 path-specific rule files
   docs/

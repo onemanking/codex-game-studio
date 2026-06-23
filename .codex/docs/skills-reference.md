@@ -1,13 +1,16 @@
 # Available Skills (Slash Commands)
 
-140 workspace-local skills are available in this template:
+131 workspace-local skills are available in this template:
 
 - 73 studio workflow skills organized by phase.
-- 9 browser game studio skills for the Web Browser engine family.
 - 58 mirrored browser-library skills for Phaser, Three.js, and React Three Fiber.
 
 Type `/` in Codex to access workflow-style skills when slash routing is available,
-or reference the skill name directly.
+or reference the skill name directly. Browser-game umbrella skills such as
+`game-studio`, `web-game-foundations`, `phaser-2d-game`, `three-webgl-game`,
+`react-three-fiber-game`, `game-ui-frontend`, `web-3d-asset-pipeline`,
+`sprite-pipeline`, and `game-playtest` are supplied by the installed Codex Game
+Studio plugin and are intentionally not duplicated in this repository.
 
 ## Onboarding & Navigation
 
@@ -23,15 +26,15 @@ or reference the skill name directly.
 
 | Command | Purpose |
 |---------|---------|
-| `/web-browser-game` | Route browser games across Phaser, Three.js, React Three Fiber, hybrid architecture, UI, assets, and QA |
-| `/web-game-foundations` | Define browser runtime architecture, loop ownership, input, audio, storage, responsive behavior, and deployment constraints |
-| `/phaser-2d-game` | Implement Phaser browser games with scenes, input, physics, sprites, cameras, tilemaps, loading, and scale behavior |
-| `/three-webgl-game` | Implement plain Three.js browser-game runtimes with scene graph, render loop, loaders, shaders, and performance boundaries |
-| `/react-three-fiber-game` | Build React-hosted 3D browser games with R3F, React state, DOM HUD, drei, and browser-game performance constraints |
-| `/game-ui-frontend` | Design and implement browser-game HUDs, overlays, menus, responsive states, and player-facing UI |
-| `/web-3d-asset-pipeline` | Prepare and optimize GLB/glTF, textures, materials, and browser 3D asset budgets |
-| `/sprite-pipeline` | Generate, normalize, and integrate 2D sprite sheets and animation assets for browser games |
-| `/game-playtest` | Run browser-game smoke/playtest checks with console, canvas, input, audio, viewport, and screenshot evidence |
+| `/game-studio` | Plugin browser-game router across Phaser, Three.js, React Three Fiber, hybrid architecture, UI, assets, and QA |
+| `/web-game-foundations` | Plugin browser runtime architecture skill for loop ownership, input, audio, storage, responsive behavior, and deployment constraints |
+| `/phaser-2d-game` | Plugin Phaser browser-game implementation skill |
+| `/three-webgl-game` | Plugin plain Three.js browser-game runtime skill |
+| `/react-three-fiber-game` | Plugin React-hosted 3D browser-game skill |
+| `/game-ui-frontend` | Plugin browser-game HUD, overlay, menu, and responsive UI skill |
+| `/web-3d-asset-pipeline` | Plugin GLB/glTF, texture, material, and browser 3D asset budget skill |
+| `/sprite-pipeline` | Plugin 2D sprite sheet and animation asset workflow skill |
+| `/game-playtest` | Plugin browser-game smoke/playtest skill |
 
 ## Game Design
 

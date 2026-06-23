@@ -332,7 +332,7 @@ Also populate the `## Engine Specialists` section in `technical-preferences.md` 
 - **Primary**: web-game-specialist
 - **Language/Code Specialist**: web-game-specialist for shared runtime, phaser-specialist for Phaser, threejs-specialist for plain Three.js, r3f-specialist for React Three Fiber
 - **Shader Specialist**: threejs-specialist or technical-artist depending on whether the shader lives in Three.js/R3F or a broader art pipeline
-- **UI Specialist**: ui-programmer for framework-neutral UI, r3f-specialist for React-hosted 3D/DOM boundaries, game-ui-frontend skill for browser-game HUD surfaces
+- **UI Specialist**: ui-programmer for framework-neutral UI, r3f-specialist for React-hosted 3D/DOM boundaries, Codex Game Studio plugin game-ui-frontend skill for browser-game HUD surfaces
 - **Additional Specialists**: phaser-specialist, threejs-specialist, r3f-specialist, browser-qa-specialist
 - **Browser Stack Specialists**: phaser-specialist, threejs-specialist, r3f-specialist
 - **Browser QA Specialist**: browser-qa-specialist
@@ -348,8 +348,8 @@ Also populate the `## Engine Specialists` section in `technical-preferences.md` 
 | React Three Fiber Canvas/scene files | r3f-specialist |
 | Shader / material files (.glsl, .wgsl, material modules) | threejs-specialist or technical-artist |
 | UI / screen files (.tsx, .jsx, CSS) | ui-programmer or r3f-specialist |
-| Browser 3D assets (.glb, .gltf, .ktx2, .hdr, .exr) | web-3d-asset-pipeline skill + threejs-specialist |
-| Browser sprite sheets / atlases (.png, .json, .aseprite) | sprite-pipeline skill + phaser-specialist |
+| Browser 3D assets (.glb, .gltf, .ktx2, .hdr, .exr) | Codex Game Studio plugin web-3d-asset-pipeline skill + threejs-specialist |
+| Browser sprite sheets / atlases (.png, .json, .aseprite) | Codex Game Studio plugin sprite-pipeline skill + phaser-specialist |
 | Browser QA / Playwright / smoke tests | browser-qa-specialist |
 | General architecture review | web-game-specialist |
 ```

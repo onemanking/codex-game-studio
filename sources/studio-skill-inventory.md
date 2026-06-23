@@ -1,8 +1,8 @@
 # Studio Skill Inventory
 
-Static Codex-native studio workflow and browser-game skills maintained directly in this template.
+Static Codex-native studio workflow skills maintained directly in this template.
 
-Skills: 82
+Skills: 73
 
 - `adopt`
 - `architecture-decision`
@@ -27,8 +27,6 @@ Skills: 82
 - `design-system`
 - `dev-story`
 - `estimate`
-- `game-playtest`
-- `game-ui-frontend`
 - `gate-check`
 - `help`
 - `hotfix`
@@ -39,14 +37,12 @@ Skills: 82
 - `onboard`
 - `patch-notes`
 - `perf-profile`
-- `phaser-2d-game`
 - `playtest-report`
 - `project-stage-detect`
 - `propagate-design-change`
 - `prototype`
 - `qa-plan`
 - `quick-design`
-- `react-three-fiber-game`
 - `regression-suite`
 - `release-checklist`
 - `retrospective`
@@ -61,7 +57,6 @@ Skills: 82
 - `soak-test`
 - `sprint-plan`
 - `sprint-status`
-- `sprite-pipeline`
 - `start`
 - `story-done`
 - `story-readiness`
@@ -79,10 +74,6 @@ Skills: 82
 - `test-flakiness`
 - `test-helpers`
 - `test-setup`
-- `three-webgl-game`
 - `ux-design`
 - `ux-review`
 - `vertical-slice`
-- `web-3d-asset-pipeline`
-- `web-browser-game`
-- `web-game-foundations`

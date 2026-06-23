@@ -5,19 +5,21 @@ full studio workflow, first-class Web Browser game support, and Codex-native
 agents.
 
 Clone this repository as the starting point for each game project, then open that
-project folder in Codex. The active runtime surfaces are the repo-local
-`.codex/skills` and `.codex/agents` directories.
+project folder in Codex. The active template surfaces are the repo-local
+`.codex/skills` and `.codex/agents` directories, with browser-game routing
+provided by the installed Codex Game Studio plugin.
 
 ## What Is Included
 
-- 140 Codex skills under `.codex/skills`.
+- 131 Codex skills under `.codex/skills`.
 - 54 Codex-native agent TOMLs under `.codex/agents`.
 - Studio workflow docs, rules, templates, and agent memory under `.codex/`.
 - Repo-local Codex hook routing in `.codex/hooks.json` and hook scripts in
   `.codex/hooks/`.
 - Engine-family coverage for Godot, Unity, Unreal, and Web Browser.
-- Web Browser skills for Phaser, Three.js, React Three Fiber, hybrid browser
-  games, UI/HUD, assets, sprites, and browser playtesting.
+- Web Browser specialist agents plus mirrored Phaser, Three.js, and React Three
+  Fiber library skills. Browser umbrella skills come from the Codex Game Studio
+  plugin and are not duplicated in this repository.
 - A reusable skill testing framework in `Codex Skill Testing Framework/`.
 - Repeatable sync and validation scripts in `scripts/`.
 - Source inventories in `sources/`.
@@ -26,16 +28,17 @@ project folder in Codex. The active runtime surfaces are the repo-local
 
 - Studio workflow skills: 73 Codex-native skills with normal names such as
   `prototype`, `test-setup`, `skill-test`, and `team-ui`.
-- Browser game studio skills: 9 Codex-native skills such as
-  `web-browser-game`, `web-game-foundations`, `phaser-2d-game`,
-  `three-webgl-game`, `react-three-fiber-game`, and `game-playtest`.
 - React Three Fiber skills: 11 skills using `r3f-*` names.
 - Phaser official skills: 28 skills using `phaser-*` names.
 - Three.js game skills: 19 skills using the upstream `threejs-*` names.
 
-The studio workflow and browser game studio skills are maintained directly in
-this template. The browser-library mirrors can be regenerated from upstream
-clones with the sync script.
+The studio workflow skills are maintained directly in this template. Browser
+entrypoint skills such as `game-studio`, `web-game-foundations`,
+`phaser-2d-game`, `three-webgl-game`, `react-three-fiber-game`,
+`game-ui-frontend`, `web-3d-asset-pipeline`, `sprite-pipeline`, and
+`game-playtest` are supplied by the installed Codex Game Studio plugin, so this
+repository does not keep local copies of them. The browser-library mirrors can
+be regenerated from upstream clones with the sync script.
 
 ## Validate
 
@@ -46,7 +49,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\validate-skills.ps
 Expected result:
 
 ```text
-Validated 140 Codex skills and 54 Codex agents
+Validated 131 Codex skills and 54 Codex agents
 ```
 
 ## Regenerate Browser Skills
@@ -59,8 +62,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\sync-codex-workspa
 ```
 
 This regenerates the R3F, Phaser, and Three.js skill mirrors, then validates the
-workspace. It does not regenerate agents or repo-local Web Browser family
-routing.
+workspace. It does not regenerate agents or duplicate browser-game plugin
+skills.
 
 ## How To Use This Template
 
@@ -108,10 +111,12 @@ Start the studio flow in Codex with:
 /start
 ```
 
-For browser-game projects, route through the Web Browser engine family:
+For browser-game projects, route through the installed Codex Game Studio plugin
+first, then use this template's agents and mirrored deep library skills as
+needed:
 
 ```text
-/web-browser-game
+/game-studio
 /web-game-foundations
 ```
 
@@ -141,9 +146,10 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\validate-skills.ps
 ### What Codex Actually Uses
 
 Codex uses the repo-local `.codex/skills`, `.codex/agents`, hooks, and
-`AGENTS.md` from the project folder you open. The `vendor/upstream-skills`
-directory is not the active runtime surface; it is kept as a source snapshot for
-traceability and future regeneration of mirrored browser-game skills.
+`AGENTS.md` from the project folder you open, plus installed Codex plugin skills.
+The `vendor/upstream-skills` directory is not the active runtime surface; it is
+kept as a source snapshot for traceability and future regeneration of mirrored
+browser-library skills.
 
 No legacy assistant-specific workspace directory or instruction file is required
 for this template.

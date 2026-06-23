@@ -14,15 +14,11 @@ Codex-native workspace template.
 
 ## Browser Skill Sources
 
-- Web Browser game studio skills
+- Web Browser game studio plugin skills
   - Source: installed Codex curated game-studio skill bundle
     `openai-curated-remote/game-studio/0.1.2`
-  - Imported Codex skills: `.codex/skills/web-game-foundations`,
-    `.codex/skills/three-webgl-game`, `.codex/skills/react-three-fiber-game`,
-    `.codex/skills/phaser-2d-game`, `.codex/skills/game-playtest`,
-    `.codex/skills/game-ui-frontend`, `.codex/skills/web-3d-asset-pipeline`,
-    and `.codex/skills/sprite-pipeline`
-  - Repo-local umbrella added here: `.codex/skills/web-browser-game`
+  - Skills are used from the installed plugin and are intentionally not copied
+    into repo-local `.codex/skills` to avoid duplicate routing.
 - React Three Fiber skills
   - Source: `https://github.com/EnzeD/r3f-skills`
   - Local clone commit used: `8ce187a05a5316cf19fb6cc020e30018a418e565`

@@ -10,5 +10,5 @@ Focus on runtime ownership, canvas and DOM layering, game-loop authority, input 
 
 For hybrid Phaser plus Three.js/R3F projects, require a clear loop owner, shared game-state contract, asset lifecycle plan, input/action bus, and resize/focus behavior before implementation.
 
-Delegate subsystem details to phaser-specialist, threejs-specialist, r3f-specialist, browser-qa-specialist, game-ui-frontend, web-game-foundations, and web-3d-asset-pipeline as appropriate. Keep recommendations grounded in the existing repo stack and package versions.
+Delegate subsystem details to phaser-specialist, threejs-specialist, r3f-specialist, browser-qa-specialist, and the installed Codex Game Studio plugin skills such as game-ui-frontend, web-game-foundations, and web-3d-asset-pipeline as appropriate. Keep recommendations grounded in the existing repo stack and package versions.
 '''

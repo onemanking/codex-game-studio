@@ -92,14 +92,6 @@
     "folder": ".codex/skills/estimate"
   },
   {
-    "name": "game-playtest",
-    "folder": ".codex/skills/game-playtest"
-  },
-  {
-    "name": "game-ui-frontend",
-    "folder": ".codex/skills/game-ui-frontend"
-  },
-  {
     "name": "gate-check",
     "folder": ".codex/skills/gate-check"
   },
@@ -140,10 +132,6 @@
     "folder": ".codex/skills/perf-profile"
   },
   {
-    "name": "phaser-2d-game",
-    "folder": ".codex/skills/phaser-2d-game"
-  },
-  {
     "name": "playtest-report",
     "folder": ".codex/skills/playtest-report"
   },
@@ -166,10 +154,6 @@
   {
     "name": "quick-design",
     "folder": ".codex/skills/quick-design"
-  },
-  {
-    "name": "react-three-fiber-game",
-    "folder": ".codex/skills/react-three-fiber-game"
   },
   {
     "name": "regression-suite",
@@ -226,10 +210,6 @@
   {
     "name": "sprint-status",
     "folder": ".codex/skills/sprint-status"
-  },
-  {
-    "name": "sprite-pipeline",
-    "folder": ".codex/skills/sprite-pipeline"
   },
   {
     "name": "start",
@@ -300,10 +280,6 @@
     "folder": ".codex/skills/test-setup"
   },
   {
-    "name": "three-webgl-game",
-    "folder": ".codex/skills/three-webgl-game"
-  },
-  {
     "name": "ux-design",
     "folder": ".codex/skills/ux-design"
   },
@@ -314,17 +290,5 @@
   {
     "name": "vertical-slice",
     "folder": ".codex/skills/vertical-slice"
-  },
-  {
-    "name": "web-3d-asset-pipeline",
-    "folder": ".codex/skills/web-3d-asset-pipeline"
-  },
-  {
-    "name": "web-browser-game",
-    "folder": ".codex/skills/web-browser-game"
-  },
-  {
-    "name": "web-game-foundations",
-    "folder": ".codex/skills/web-game-foundations"
   }
 ]

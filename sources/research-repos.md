@@ -17,4 +17,4 @@ Additional repos found during AGY research that can be evaluated for later impor
 - https://github.com/DY-2026/ParanoiaSkills
 
 Do not import additional sources without checking license, current structure, and overlap with
-the existing 140-skill Codex workspace surface.
+the existing 131-skill Codex workspace surface and installed Codex plugins.
