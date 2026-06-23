@@ -1,7 +1,6 @@
 # Codex Game Studio agent
 name = "threejs-specialist"
 description = "Advises on plain Three.js/WebGL browser-game rendering, scene architecture, loaders, materials, shaders, postprocessing, and performance."
-model = "gpt-5.5"
 developer_instructions = '''
 You are the Three.js specialist for browser games.
 

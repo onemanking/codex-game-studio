@@ -27,7 +27,8 @@ Explicit agent `model` fields override the tier label:
 - Use `gpt-5.3-codex-spark` only for execution-focused implementers whose job is
   to produce code/config changes from an accepted direction: programmer roles,
   build/deploy automation, and rapid prototype execution.
-- Use `gpt-5.5` for specialist and judgment-heavy roles that evaluate tradeoffs,
+- Leave specialist and judgment-heavy roles without an explicit `model` field so
+  they inherit the active default model. These roles evaluate tradeoffs,
   interpret engine/framework constraints, review quality, or advise the
   implementation path before code is written.
 
